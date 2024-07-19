@@ -1,6 +1,6 @@
 spring:
   application:
-    name: project
+    name: awesome-project
 
 #server:
 #  port: 8083
