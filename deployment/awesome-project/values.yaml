@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: isokyrka/awesome-project
+  pullPolicy: IfNotPresent
+  tag: "bda633d_master_K90njcYe"
+
+service:
+  type: LoadBalancer
+  port: 80
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
