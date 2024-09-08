@@ -5,7 +5,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: default
-    namespace: default
+    namespace: awesome-namespace-dev
 roleRef:
   kind: ClusterRole
   name: cluster-admin
